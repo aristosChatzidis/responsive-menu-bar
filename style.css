@@ -1,0 +1,100 @@
+/* WHOLE PAGE STYLE AND SETTINGS */
+body {
+  background-color: black;
+}
+
+/* LOGO properties  */
+.logo {
+  float: left;
+  margin-top: 6px;
+  height: 50px;
+  padding-left: 20px;
+}
+
+/* Menu letter size */
+.navigator-menu {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  background: #de972f;
+  color: black;
+  height: 70px;
+}
+
+/*  Navigation bar style */
+.bar-3lines {
+  float: left;
+}
+
+/* Slider Image Responsive  */
+.carousel-inner img {
+  width: 100px;
+  height: 100px;
+}
+ul {
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+}
+
+/* Grammatoseira megethos  */
+ul li {
+  display: inline-flex;
+  padding: 10px;
+  font-size: 16pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Menu on hover color change */
+ul li:hover {
+  color: white;
+}
+
+/* CSS for responsive menu bar button */
+.toggle {
+  width: 100%;
+  padding: 23px;
+  background: #de972f;
+  text-align: right;
+  display: none;
+}
+
+/* Slider */
+div.container {
+  margin-top: 5%;
+  height: 30%;
+  width: 40%;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+/* Displaying mobile menu if width is smaller than 786px */
+@media (max-width: 840px) {
+  .toggle {
+    display: block;
+  }
+
+  ul {
+    width: 100%;
+    display: none;
+  }
+
+  ul li {
+    display: block;
+    text-align: left;
+    background-color: #a57328;
+  }
+}
+
+/* For desapearing logo for mobile version */
+@media (max-width: 332px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 890px) {
+  .active {
+    display: block;
+  }
+}
